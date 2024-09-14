@@ -15,13 +15,12 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+SECRET_KEY = 'django-insecure-i(lqypm)@48=jo!*l*^gf&0i!07&dmwu669ppm%5s1o_5c%1j@'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-i(lqypm)@48=jo!*l*^gf&0i!07&dmwu669ppm%5s1o_5c%1j@'
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
